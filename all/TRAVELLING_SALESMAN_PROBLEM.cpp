@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-
 struct TSP {
     int N;
     std::vector<std::vector<int> > d, dp;

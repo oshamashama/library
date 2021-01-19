@@ -6,7 +6,7 @@ struct WARSHALL_FLOYD {
         d = D;
         V = v;
     }
-    
+
     void warshall_floyd() {
         for(long long k = 0; k < V; k++) {
             for(long long i = 0; i < V; i++) {

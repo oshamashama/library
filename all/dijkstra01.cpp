@@ -1,5 +1,3 @@
-#include <bits/stdc++.h>
-
 struct DIJKSTRA {
     std::vector<std::vector<int> > cost;
     std::vector<int> d;

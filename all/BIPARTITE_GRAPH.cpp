@@ -1,5 +1,5 @@
 struct BIPARTITE_GRAPH {
-    vl color;
+    vector<int>  color;
     vector<vector<int> > G;
     void init(int v) {
         color.resize(v, 0);

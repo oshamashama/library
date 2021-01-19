@@ -1,7 +1,6 @@
 struct COMB{
     long long MOD = 1e9 + 7;
-//    long long MOD = 1e9 + 7;
-    vl fact, fact_inv, inv;
+    vector<int> fact, fact_inv, inv;
     void init_nCk(long long SIZE) {
         fact.resize(SIZE + 5);
         fact_inv.resize(SIZE + 5);

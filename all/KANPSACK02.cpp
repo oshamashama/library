@@ -1,8 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-typedef long long ll;
-template<typename T>
 vector<T> ks01(vector<T> &v, vector<T> &w, T &W) {
     T N = v.size();
     vector<T> dp(W + 1, 0);
